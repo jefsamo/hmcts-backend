@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMCTS-Test", "HMCTS-Test\HMCTS-Test.csproj", "{6D9FECCD-6BC1-4D27-ADCD-3267EC868B76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMCTS_Test", "HMCTS_Test\HMCTS_Test.csproj", "{5D368E1F-B521-4CB9-9EE6-A284093B7057}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D9FECCD-6BC1-4D27-ADCD-3267EC868B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9FECCD-6BC1-4D27-ADCD-3267EC868B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9FECCD-6BC1-4D27-ADCD-3267EC868B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9FECCD-6BC1-4D27-ADCD-3267EC868B76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D368E1F-B521-4CB9-9EE6-A284093B7057}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D368E1F-B521-4CB9-9EE6-A284093B7057}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D368E1F-B521-4CB9-9EE6-A284093B7057}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D368E1F-B521-4CB9-9EE6-A284093B7057}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B190214B-34E2-4BBC-8631-1EE4B8709713}
+	EndGlobalSection
+EndGlobal
