@@ -30,7 +30,7 @@ namespace HMCTS_Test.Controllers
             {
                 return ValidationProblem(ModelState);
             }
-
+            
             try
             {
                 var created = await _taskService.CreateTaskAsync(request, cancellationToken);
@@ -41,6 +41,15 @@ namespace HMCTS_Test.Controllers
                 _logger.LogWarning(ex, "Validation error while creating task");
                 return BadRequest(new { error = ex.Message });
             }
+        }
+
+        /// <summary>Get all tasks.</summary>
+        [HttpGet]
+        [ProducesResponseType(typeof(IEnumerable<TaskResponse>), StatusCodes.Status200OK)]
+        public async Task<ActionResult<IEnumerable<TaskResponse>>> GetAllTasks(CancellationToken cancellationToken)
+        {
+            var tasks = await _taskService.GetAllTasksAsync(cancellationToken);
+            return Ok(tasks);
         }
     }
 }

@@ -15,6 +15,6 @@ namespace HMCTS_Test.DTOs
         public string Status { get; set; } = "Todo";
 
         [Required]
-        public DateTime? DueDateTime { get; set; }
+        public string? DueDateTime { get; set; } = string.Empty;
     }
 }
