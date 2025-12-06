@@ -32,7 +32,7 @@ It provides an endpoint to create new tasks and persists them in a **SQL Server*
 ## Project Structure
 
 ```txt
-TaskApi/
+HMCTS-Test/
   Controllers/
     TasksController.cs
   Data/
